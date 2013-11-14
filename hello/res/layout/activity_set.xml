@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.view.View
+        android:id="@+id/SetActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.12" >
+
+        <TextView
+            android:id="@+id/textView_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="20dp"
+            android:text="声音"
+            android:textColor="#ff0000ff"
+            android:textSize="30sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView_score"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/textView_score"
+            android:text="声音" />
+
+        <TextView
+            android:id="@+id/textView_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="80dp"
+            android:text="震动"
+            android:textColor="#ff0000ff"
+            android:textSize="30sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView_v"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/textView_v"
+            android:text="声音" />
+
+        <TextView
+            android:id="@+id/textView_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="140dp"
+            android:text="背景"
+            android:textColor="#ff0000ff"
+            android:textSize="30sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView_e"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/textView_e"
+            android:text="声音" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:text="背景"
+            android:textColor="#ff0000ff"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/toggleButton1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView_e" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/spinner1"
+            android:layout_marginBottom="31dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textColor="#ff880088"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:text="" 
+                android:textColor="#ff880088"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

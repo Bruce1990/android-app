@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tetris</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="about">说明：\n点击指定位置操作(也可滑屏)\nUP:屏幕上1/4区及向上滑动\nDOWN:屏幕底部1/4及向下滑动\nLEFT:屏幕左及向左滑动\nRIGHT:屏幕右及向右滑动\n预览区暂停。好好学习，天天向上！\n        
+                \n    versions:1.0.1\n      author:阿拉丁\n        E-mail:461763835@qq.com\n                                 2013.10.1</string>
+</resources>
